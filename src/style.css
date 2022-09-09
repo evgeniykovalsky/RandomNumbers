@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+input{
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 3px solid grey;
+    width: 30%;
+    max-width: 800px;
+    margin: 10px auto;
+
+}
+input:focus{
+    border-bottom: 3px solid red;
+}
+.res{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.res>div{
+    margin-right: 25px
+
+}
+
